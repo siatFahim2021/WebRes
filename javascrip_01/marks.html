@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Marks distribution</title>
+</head>
+
+<body>
+<script>
+  var marks=Number(prompt("please enter your marks"));
+  var name1=prompt("please enter your name");
+  var name=name1.toUpperCase();
+    
+    if(marks>=80 && marks<=100){
+        alert("Congratulations  "+name+" ,you got A+")
+    }
+    else if(marks>=70 && marks<=79)
+    {
+       alert(name+ " ,you got A") 
+    }
+    else if(marks>=60 && marks<=69)
+    {
+       alert(name+ " ,you got B+") 
+    }
+    else if(marks>=50 && marks<=59)
+    {
+       alert(name+ " ,you got B") 
+    }
+    else if(marks<=50)
+    {
+       alert("Sorry "+name+" ,you have Failed") 
+    }
+    else if(marks>100)
+    {
+       alert(name+ " give right marks") 
+    }
+    else if(marks<0){
+        alert("Wrong marks!!!!,please give right input")
+    }
+    else{
+        alert("invalid input")
+    }
+    
+</script>
+</body>
+
+</html>
